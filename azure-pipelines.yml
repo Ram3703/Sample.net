@@ -13,7 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
 
-
+steps:
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
