@@ -12,6 +12,8 @@ pool:
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
+
+
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
