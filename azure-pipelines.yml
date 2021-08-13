@@ -15,8 +15,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- publish: $(System.DefaultWorkingDirectory)/bin/WebApp
-  artifact: WebApp
 - task: NuGetToolInstaller@1
 
 - task: DotNetCoreCLI@2
